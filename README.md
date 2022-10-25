@@ -25,6 +25,10 @@ Producción
 
 Enlace: <https://pokemon-api-challenge.herokuapp.com/>
 
+Enlace para revisar la docmuentación con swagger
+<https://pokemon-api-challenge.herokuapp.com/api/doc>
+
+
 *Nota: Para subir la version a producción se debe agregar la url del servidor en swagger para que la documentación funcione*
 
 ```ruby
@@ -44,6 +48,7 @@ const swaggerSpec = {
     apis: [`${path.join(__dirname, "./routes/*.js")}`]
 }
 ```
+
 Proceso de Desarrollo
 -----
 [Initial commit](https://github.com/jfpanchi2/pokemon-backend/commit/43d03751bce7e295186ae316f8f438356ec52029)
